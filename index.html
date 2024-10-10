@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
+
     <link rel="stylesheet" href="src/style.css">
     <link rel="shortcut icon" href="./src/imagens/favicon.ico" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -14,23 +17,30 @@
             <img class="imgPokeball" src="src/imagens/pokeball.png" alt="imagem pokebola">
         </a>
 
-        <a href="#">
-            <img class="imgSunMoon"src="src/imagens/sun.png" alt="imagem sol">
-        </a>
+            <button>
+                <img class="imgSunMoon"src="src/imagens/sun.png" alt="imagem sol">
+            </button>
     </header>
-    <div id="cx-flex">
-        <ul>
-            <li class="cxPokemon"></li>
-            <li class="cxPokemon"></li>
-            <li class="cxPokemon"></li>
-            <li class="cxPokemon"></li>
-            <li class="cxPokemon"></li>
-            <li class="cxPokemon"></li>
-            <li class="cxPokemon"></li>
-            <li class="cxPokemon"></li>
-            <li class="cxPokemon"></li>
-            <li class="cxPokemon"></li>
-        </ul>
-    </div>
+    <ul id="cxFlex">
+        <li class="cxPokemon">
+            <div class="titulo">
+                <span class="Number-Name">
+                    <strong>Bulbasaur</strong>
+                </span>
+                <span class="Number-Name">
+                    <strong>#001</strong>
+                </span>
+            </div>
+        </li>
+        <li class="cxPokemon"></li>
+        <li class="cxPokemon"></li>
+        <li class="cxPokemon"></li>
+        <li class="cxPokemon"></li>
+        <li class="cxPokemon"></li>
+        <li class="cxPokemon"></li>
+        <li class="cxPokemon"></li>
+        <li class="cxPokemon"></li>
+        <li class="cxPokemon"></li>
+    </ul>
 </body>
 </html>

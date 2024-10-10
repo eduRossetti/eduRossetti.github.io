@@ -1,17 +1,17 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-body{
+body {
     background-color: rgb(179, 175, 175);
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-header{
+header {
     width: 100%;
     height: 100px;
     padding: 30px;
@@ -20,22 +20,42 @@ header{
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
+    border-bottom: solid 1px;
 }
 
-.cxPokemon{
-
-}/*ADICIONAR AS ESTILIZAÇÕES PARA A BOX DOS POKEMONS*/
-
-#cxFlex{
+#cxFlex {
     display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: space-around;
 }
 
 .imgPokeball,
-.imgSunMoon{
+.imgSunMoon {
     width: 30px;
     height: 30px;
 }
 
-.imgPokeball{
+.cxPokemon {
+    width: 200px;
+    height: 300px;
+    background-color: #d8e3ec;
+    list-style: none;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+}
 
+.Number-Name {
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo {
+    display: inline-block;
+    margin-top: 20px;
+    border: solid 1px;
+    padding: 5px;
 }
