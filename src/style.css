@@ -45,8 +45,7 @@ header {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center;
 }
 
 .Number-Name {
