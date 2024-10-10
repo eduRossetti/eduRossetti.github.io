@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(179, 175, 175);
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    padding: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cxPokemon{
+
+}/*ADICIONAR AS ESTILIZAÇÕES PARA A BOX DOS POKEMONS*/
+
+#cxFlex{
+    display: flex;
+}
+
+.imgPokeball,
+.imgSunMoon{
+    width: 30px;
+    height: 30px;
+}
+
+.imgPokeball{
+
+}
