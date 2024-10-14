@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
 
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/scrollbar.css">
+
     <link rel="shortcut icon" href="./src/imagens/favicon.ico" type="image/x-icon">
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -21,33 +24,40 @@
                 <img class="imgSunMoon"src="src/imagens/sun.png" alt="imagem sol">
             </button>
     </header>
-    <ul id="cxFlex">
-        <li class="cardPokemon">
-            <div class="titulo">
-                <span>
-                    <strong>Bulbasaur</strong>
-                </span>
-                <span>
-                    <strong>#001</strong>
-                </span>
-            </div>
+    
+    <main>
+        <ul id="cxFlex">
+            <li class="cardPokemon">
+                <div class="titulo">
+                    <span>
+                        <strong>Bulbasaur</strong>
+                    </span>
+                    <span>
+                        <strong>#001</strong>
+                    </span>
+                </div>
+                <img src="src/imagens/bulbasaur.gif" alt="gif bulbasaur" class="imgPokemon">
+                
+                <div>
+                    <span data-tipo="grama" class="tipos">Grama</span>
+                    <span data-tipo="veneno"class="tipos">Veneno</span>
+                </div>
 
-            <img src="src/imagens/bulbasaur.gif" alt="gif bulbasaur" class="imgPokemon">
-
-            <div>
-                <span data-tipo="grama" class="tipos">Grama</span>
-                <span data-tipo="veneno"class="tipos">Veneno</span>
-            </div>
-        </li>
-        <li class="cardPokemon"></li>
-        <li class="cardPokemon"></li>
-        <li class="cardPokemon"></li>
-        <li class="cardPokemon"></li>
-        <li class="cardPokemon"></li>
-        <li class="cardPokemon"></li>
-        <li class="cardPokemon"></li>
-        <li class="cardPokemon"></li>
-        <li class="cardPokemon"></li>
-    </ul>
+                <div class="descricao">
+                    <p>Há uma semente de planta em suas costas desde o dia que este Pókemon nasce. A semente cresce
+                    lentamente.</p>
+                </div>
+            </li>
+            <li class="cardPokemon"></li>
+            <li class="cardPokemon"></li>
+            <li class="cardPokemon"></li>
+            <li class="cardPokemon"></li>
+            <li class="cardPokemon"></li>
+            <li class="cardPokemon"></li>
+            <li class="cardPokemon"></li>
+            <li class="cardPokemon"></li>
+            <li class="cardPokemon"></li>
+        </ul>
+    </main>
 </body>
 </html>
